@@ -4,6 +4,52 @@
   padding: 2rem;
   text-align: center;
 }
+.container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.tasks {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.task {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.task input {
+  margin-right: 10px;
+}
+
+.task label {
+  font-weight: bold;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.add-task {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.clear-all {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
 
 .logo {
   height: 6em;
